@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:my_weather/screens/weather_detail_screen.dart';
+import 'package:my_weather/src/screens/weather_detail_screen.dart';
 
 import '../models/famous_city.dart';
 import '../services/weather_service.dart';
 import '../views/famous_cities_weather.dart';
 import '../widgets/city_weather_tile.dart';
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/views/gradient_container.dart';
-import '/widgets/round_text_field.dart';
+import '/src/constants/app_colors.dart';
+import '/src/constants/text_styles.dart';
+import '/src/views/gradient_container.dart';
+import '/src/widgets/round_text_field.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});

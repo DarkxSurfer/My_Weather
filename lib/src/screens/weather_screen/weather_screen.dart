@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:my_weather/src/extensions/datetime.dart';
+import 'package:my_weather/src/views/hourly_forecast_view.dart';
 
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/extensions/datetime.dart';
-import '/extensions/strings.dart';
-import '/providers/get_current_weather_provider.dart';
-import '/views/gradient_container.dart';
-import '/views/hourly_forecast_view.dart';
+import '../../constants/app_colors.dart';
+import '../../constants/text_styles.dart';
+import '../../providers/get_current_weather_provider.dart';
+import '../../views/gradient_container.dart';
 import 'weather_info.dart';
 
 class WeatherScreen extends ConsumerWidget {

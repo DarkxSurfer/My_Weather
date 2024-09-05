@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:my_weather/src/extensions/double.dart';
 
-import '/constants/text_styles.dart';
-import '/extensions/double.dart';
-import '/models/weather.dart';
+import '../../constants/text_styles.dart';
+import '../../models/weather.dart';
 
 class WeatherInfo extends StatelessWidget {
   const WeatherInfo({

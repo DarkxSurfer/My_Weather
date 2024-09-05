@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/extensions/int.dart';
-import '/providers/get_hourly_forecast_provider.dart';
-import '/utils/get_weather_icons.dart';
+import '/src/constants/app_colors.dart';
+import '/src/constants/text_styles.dart';
+import '/src/extensions/int.dart';
+import '/src/providers/get_hourly_forecast_provider.dart';
+import '/src/utils/get_weather_icons.dart';
 
 class HourlyForecastView extends ConsumerWidget {
   const HourlyForecastView({

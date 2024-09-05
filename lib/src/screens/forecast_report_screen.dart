@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/extensions/datetime.dart';
-import '/views/gradient_container.dart';
-import '/views/hourly_forecast_view.dart';
-import '/views/weekly_forecast_view.dart';
+import '/src/constants/app_colors.dart';
+import '/src/constants/text_styles.dart';
+import '/src/extensions/datetime.dart';
+import '/src/views/gradient_container.dart';
+import '/src/views/hourly_forecast_view.dart';
+import '/src/views/weekly_forecast_view.dart';
 
 class ForecastReportScreen extends StatelessWidget {
   const ForecastReportScreen({super.key});

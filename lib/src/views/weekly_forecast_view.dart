@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/extensions/datetime.dart';
-import '/providers/get_weekly_forecast_provider.dart';
-import '/utils/get_weather_icons.dart';
-import '/widgets/subscript_text.dart';
+import '/src/constants/app_colors.dart';
+import '/src/constants/text_styles.dart';
+import '/src/extensions/datetime.dart';
+import '/src/providers/get_weekly_forecast_provider.dart';
+import '/src/utils/get_weather_icons.dart';
+import '/src/widgets/subscript_text.dart';
 
 class WeeklyForecastView extends ConsumerWidget {
   const WeeklyForecastView({super.key});

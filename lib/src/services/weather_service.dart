@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:my_weather/constants/constants.dart';
+import 'package:my_weather/src/constants/constants.dart';
 
 class WeatherService {
   final String apiKey = Constants.apiKey; // Replace with your API key

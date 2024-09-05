@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' show immutable;
 
-import '/constants/constants.dart';
-import '/models/hourly_weather.dart';
-import '/models/weather.dart';
-import '/models/weekly_weather.dart';
-import '/services/getlocator.dart';
-import '/utils/logging.dart';
+import '/src/constants/constants.dart';
+import '/src/models/hourly_weather.dart';
+import '/src/models/weather.dart';
+import '/src/models/weekly_weather.dart';
+import '/src/services/getlocator.dart';
+import '/src/utils/logging.dart';
 
 @immutable
 class ApiHelper {

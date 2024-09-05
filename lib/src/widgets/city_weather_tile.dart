@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '/constants/app_colors.dart';
-import '/constants/text_styles.dart';
-import '/models/famous_city.dart';
-import '/providers/get_city_forecast_provider.dart';
-import '/utils/get_weather_icons.dart';
+import '/src/constants/app_colors.dart';
+import '/src/constants/text_styles.dart';
+import '/src/models/famous_city.dart';
+import '/src/providers/get_city_forecast_provider.dart';
+import '/src/utils/get_weather_icons.dart';
 
 class CityWeatherTile extends ConsumerWidget {
   const CityWeatherTile({

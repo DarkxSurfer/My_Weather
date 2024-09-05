@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '/constants/app_colors.dart';
+import '/src/constants/app_colors.dart';
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer({

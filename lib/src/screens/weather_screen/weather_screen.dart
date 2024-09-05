@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:my_weather/src/extensions/datetime.dart';
+import 'package:my_weather/src/extensions/strings.dart';
 import 'package:my_weather/src/views/hourly_forecast_view.dart';
 
 import '../../constants/app_colors.dart';

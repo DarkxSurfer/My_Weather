@@ -13,14 +13,18 @@ My Weather is a Flutter application designed to provide real-time weather inform
 ### Tech Stack
 
   Frontend: Flutter
+  
   State Management: Provider
+  
   API: Weather API (API Key required)
+
+  
 
 ## Installation
 
  Clone the Repository:
 
-    git clone https://github.com/your-username/my-weather.git
+    git clone https://github.com/DarkxSurfer/My_Weather.git
 
 ### Navigate to the Project Directory:
 
